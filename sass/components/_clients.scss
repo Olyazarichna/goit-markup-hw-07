@@ -4,15 +4,15 @@
   line-height: 1.16;
   margin-bottom: 50px;
 }
-.client-items {
+.client-list {
   display: flex;
 }
 
-.client-items .client-list + .client-list {
+.client-list__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.client-hover {
+.client-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,20 +21,18 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color var(--transition);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
-/* client logo-icon */
-.client-icon {
-  width: 106px;
-  height: 60px;
+
+.client-list__icon {
   fill: #afb1b8;
   transition: fill var(--transition);
 }
-.client-hover:hover,
-.client-hover:focus {
-  border-color: var(--accent-color);
-}
 
-.client-hover:hover .client-icon,
-.client-hover:focus .client-icon {
+.client-list__link:hover .client-list__icon,
+.client-list__link:focus .client-list__icon {
   fill: var(--accent-color);
 }
