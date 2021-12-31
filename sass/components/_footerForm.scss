@@ -4,7 +4,6 @@
   align-items: flex-end;
   margin-left: 93px;
 }
-
 .footer-form__label {
   display: block;
   padding-bottom: 20px;
@@ -32,14 +31,12 @@
     border: 1px solid var(--accent-color);
   }
 }
-
 .footer-form__input::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .footer-form__button {
   display: inline-flex;
   margin-left: 12px;
@@ -61,7 +58,6 @@
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 }
-
 .footer-form__icon {
   margin-left: 10px;
 }

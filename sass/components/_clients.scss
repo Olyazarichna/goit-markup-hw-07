@@ -7,11 +7,9 @@
 .client-list {
   display: flex;
 }
-
 .client-list__item:not(:first-child) {
   margin-left: 30px;
 }
-
 .client-list__link {
   display: flex;
   justify-content: center;
@@ -26,12 +24,10 @@
     border-color: var(--accent-color);
   }
 }
-
 .client-list__icon {
   fill: #afb1b8;
   transition: fill var(--transition);
 }
-
 .client-list__link:hover .client-list__icon,
 .client-list__link:focus .client-list__icon {
   fill: var(--accent-color);

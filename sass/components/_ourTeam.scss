@@ -1,5 +1,4 @@
 /* Our team */
-
 .team.section {
   padding-top: 94px;
   background-color: #f5f4fa;
@@ -33,7 +32,6 @@
   color: #757575;
   font-weight: 400;
 }
-
 .icon-list {
   display: flex;
   justify-content: center;
@@ -60,7 +58,6 @@
   fill: #afb1b8;
   transition: fill var(--transition);
 }
-
 .icon-list__link:hover .icon-list__symbol,
 .icon-list__link:focus .icon-list__symbol {
   fill: #ffffff;
