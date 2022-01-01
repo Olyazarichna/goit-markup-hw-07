@@ -6,17 +6,13 @@
 .filtr__items:not(:first-child) {
   margin-left: 8px;
 }
-.filtr__items .filtr__btn {
+
+.filtr__btn {
   display: block;
-  width: 145px;
-  padding: 5.99px 22px;
+  padding: 6px 22px;
   border: transparent;
   border-radius: 4px;
-}
-.filtr__btn {
   cursor: pointer;
-}
-.filtr__btn {
   background-color: var(--bg-second-color);
   font-weight: 500;
   font-size: 16px;

@@ -6,13 +6,8 @@
 }
 .footer-form__label {
   display: block;
-  padding-bottom: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  color: #ffffff;
+  @extend %text;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-form__input {
   width: 358px;

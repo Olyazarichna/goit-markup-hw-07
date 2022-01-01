@@ -38,6 +38,15 @@ a {
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.invitation__title, .footer-form__label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -543,15 +552,6 @@ a {
   margin-left: 70px;
 }
 
-.invitation__title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.17;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
 .link-footer {
   background: rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 50%;
@@ -577,13 +577,7 @@ a {
 
 .footer-form__label {
   display: block;
-  padding-bottom: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  color: #ffffff;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-form__input {
@@ -953,20 +947,13 @@ a {
   margin-left: 8px;
 }
 
-.filtr__items .filtr__btn {
+.filtr__btn {
   display: block;
-  width: 145px;
-  padding: 5.99px 22px;
+  padding: 6px 22px;
   border: transparent;
   -webkit-border-radius: 4px;
           border-radius: 4px;
-}
-
-.filtr__btn {
   cursor: pointer;
-}
-
-.filtr__btn {
   background-color: var(--bg-second-color);
   font-weight: 500;
   font-size: 16px;

@@ -31,12 +31,7 @@
   margin-left: 70px;
 }
 .invitation__title {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.17;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  @extend %text;
 }
 .link-footer {
   background: rgba(255, 255, 255, 0.1);
