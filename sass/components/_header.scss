@@ -84,7 +84,7 @@
   color: #757575;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 .nav-contact__icon {

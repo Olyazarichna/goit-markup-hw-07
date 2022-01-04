@@ -177,7 +177,7 @@ a {
 }
 
 .nav-contact__contact:hover, .nav-contact__contact:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .nav-contact__icon {
